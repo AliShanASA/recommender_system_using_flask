@@ -94,4 +94,4 @@ def feature_extraction_from_db(image_url, model):
     return feature_extraction(img, model)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0", port=5000)
